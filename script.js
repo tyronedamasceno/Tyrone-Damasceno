@@ -140,6 +140,21 @@ window.addEventListener('load', () => {
   }, 100);
 });
 
+// Scroll down arrow functionality
+const scrollDownArrow = document.querySelector('.scroll-indicator');
+if (scrollDownArrow) {
+  scrollDownArrow.style.cursor = 'pointer';
+  scrollDownArrow.addEventListener('click', () => {
+    const aboutSection = document.querySelector('#about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+}
+
 // Scroll to top functionality
 const scrollToTopBtn = document.createElement('button');
 scrollToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';

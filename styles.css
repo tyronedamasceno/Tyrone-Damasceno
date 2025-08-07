@@ -291,6 +291,16 @@ section {
   transform: translateY(-2px);
 }
 
+.languages {
+  margin-top: 2rem;
+}
+
+.languages h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
 .about-stats {
   display: flex;
   flex-direction: column;
