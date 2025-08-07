@@ -1,14 +1,172 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tyrone Damasceno</title>
+  <title>Tyrone Damasceno - Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <h1>Hello, I'm Tyrone 👋</h1>
-  <p>Welcome to my personal site hosted with GitHub Pages!</p>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">TD</div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello, I'm <span class="highlight">Tyrone Damasceno</span> 👋</h1>
+          <h2>Software Engineer</h2>
+          <p class="hero-description">
+            Brazilian software engineer passionate about solving problems and creating innovative solutions. 
+            Currently based in the Netherlands, bringing global perspective to technology.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="media/profile.jpg" alt="Tyrone Damasceno" class="profile-photo">
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a software engineer with a passion for building scalable and user-friendly applications. 
+            Originally from Brazil, I've brought my expertise to the Netherlands, where I continue to 
+            grow and contribute to the tech community.
+          </p>
+          <p>
+            My journey in software development has taught me the importance of clean code, 
+            user experience, and continuous learning. I enjoy working with modern technologies 
+            and solving complex problems.
+          </p>
+          <div class="skills">
+            <h3>Skills & Technologies</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Agile</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <h3>5+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-item">
+            <h3>20+</h3>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Senior Software Engineer</h3>
+            <p class="company">Tech Company • Netherlands</p>
+            <p class="period">2022 - Present</p>
+            <p>Leading development of scalable web applications and mentoring junior developers.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Software Engineer</h3>
+            <p class="company">Startup • Netherlands</p>
+            <p class="period">2020 - 2022</p>
+            <p>Built and maintained full-stack applications using modern technologies.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Junior Developer</h3>
+            <p class="company">Tech Firm • Brazil</p>
+            <p class="period">2019 - 2020</p>
+            <p>Started my professional journey developing web applications and learning best practices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>hello@tyrone.dev.br</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Netherlands</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-globe"></i>
+              <span>Available for remote work</span>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/tyronedamasceno/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/tyronedamasceno" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Tyrone Damasceno. Built with ❤️ & AI. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
