@@ -403,6 +403,17 @@ section {
   margin-bottom: 0.25rem;
 }
 
+.company a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.company a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
 .period {
   color: #64748b;
   font-size: 0.9rem;
